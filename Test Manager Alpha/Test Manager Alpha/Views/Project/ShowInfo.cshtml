@@ -1,0 +1,20 @@
+﻿@model Test_Manager_Alpha.Models.Project
+
+@{
+    ViewBag.Title = @Model.Name;
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Project Info: @Model.Id</h2>
+
+<div>
+    <h3>Description:</h3>
+    <p> @Model.Description </p>
+</div>
+
+@section Footer {
+    <div>
+        <p> </p>
+        <p>Copyright© Maxim Gushchin, @DateTime.Now.Year. All rights reserved </p>
+    </div>
+}

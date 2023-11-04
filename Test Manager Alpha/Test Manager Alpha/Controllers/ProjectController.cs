@@ -13,18 +13,18 @@ namespace Test_Manager_Alpha.Controllers
             db = context;
         }
 
-        public async Task<IActionResult> Show(int projectId)
+        public async Task<IActionResult> ShowInfo(string projectName)
         {
-            Project? project = await db.Projects.FirstOrDefaultAsync(p => p.Id == projectId);
-            string? projectName = project?.Name; 
-            return RedirectToAction("ShowInfo", "Project", project);
+            Project? project = await db.Projects.FirstOrDefaultAsync(p => p.Name == projectName);
+            return View(project);
+            //return RedirectToAction("ShowInfo", "Project", project);
         }
 
-        public IActionResult ShowInfo(Project project)
-        {
-            //Project? project = await db.Projects.FirstOrDefaultAsync(p => p.Name == projectName);
-            return View(project);
-        }
+        //public async Task<IActionResult> ShowInfo(int projectId)
+        //{
+        //    Project? project = await db.Projects.FirstOrDefaultAsync(p => p.Id == projectId);
+        //    return View(project);
+        //}
 
     }
 }

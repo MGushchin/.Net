@@ -1,4 +1,5 @@
-﻿@model Test_Manager_Alpha.Models.Project
+﻿@using Test_Manager_Alpha.Models;
+@model Test_Manager_Alpha.Models.Project
 
 @{
     ViewBag.Title = @Model.Name;
@@ -11,6 +12,16 @@
     <h3>Description:</h3>
     <p> @Model.Description </p>
 </div>
+
+<h3>Test Suites</h3>
+<table class="table">
+        <tr>
+        @foreach (TestSuite testSuite in @Model.TestSuite)
+            {
+            <td>@testSuite.Name</td>
+            }
+        </tr>
+</table>
 
 @section Footer {
     <div>

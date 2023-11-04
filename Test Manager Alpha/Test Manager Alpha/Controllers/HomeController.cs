@@ -34,14 +34,14 @@ namespace Test_Manager_Alpha.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(string name, string description)
         {
-            Project project = new Project() { Name = name, Description = description, TestSuites = new List<TestSuite>()};
+            Project? project = new Project() { Name = name, Description = description };
             db.Projects.Add(project);
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
-        public IActionResult OpenProject(string? projectId)
+        public IActionResult OpenProject(string? projectName)
         {
-            return RedirectToAction("Show", "Project", new { projectId = projectId });
+            return RedirectToAction("ShowInfo", "Project", new { projectName = projectName });
         }
     }
 }

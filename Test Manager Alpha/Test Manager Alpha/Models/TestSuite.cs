@@ -2,8 +2,10 @@
 {
     public class TestSuite
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public string? Name { get; set; }
-        public List<TestCase>? TestCases { get; set; }
+        public List<TestCase> TestCases { get; set; } = new();
+
+
     }
 }

@@ -10,7 +10,7 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td><a asp-action="OpenProject" asp-route-projectId="@item.Id">@item.Name</a></td>
+            <td><a asp-action="OpenProject" asp-route-projectName="@item.Name">@item.Name</a></td>
         </tr>
     }
 </table>

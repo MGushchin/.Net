@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AtHM+yCcIe3ki7vOMiHOKzVGOGYfqY9cIhAI8Ck86bHyq0LDDiLF9nvfa88jgJKR/ib8/1cjjmPYenhEUaYOKA==",
+  "dgSpecHash": "ftSwlxzoUaTPpK5+pMpCZSlMk/F55Cu/j3Hp5xAnDFfqvMihayvwNIIhmvOTBFFQYh+iYATy+2dTxMMda0xL2A==",
   "success": true,
-  "projectFilePath": "F:\\Visual Studio\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj",
+  "projectFilePath": "F:\\Github\\.Net\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxim\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Maxim\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

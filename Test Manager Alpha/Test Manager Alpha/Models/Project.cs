@@ -2,9 +2,9 @@
 {
     public class Project
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
-        public List<TestSuite>? TestSuites { get; set; }
+        public List<TestSuite>? TestSuite { get; set; } = new List<TestSuite>();
     }
 }

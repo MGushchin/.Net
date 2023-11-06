@@ -23,14 +23,6 @@ namespace Test_Manager_Alpha.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Create(Project project)
-        //{
-        //    db.Projects.Add(project);
-        //    await db.SaveChangesAsync();
-        //    return RedirectToAction("Index");
-        //}
-
         [HttpPost]
         public async Task<IActionResult> Create(string name, string description)
         {
@@ -39,6 +31,7 @@ namespace Test_Manager_Alpha.Controllers
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
+
         public IActionResult OpenProject(string? projectName)
         {
             return RedirectToAction("ShowInfo", "Project", new { projectName = projectName });

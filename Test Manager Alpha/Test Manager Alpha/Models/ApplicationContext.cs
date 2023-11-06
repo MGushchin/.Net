@@ -11,20 +11,26 @@ namespace Test_Manager_Alpha.Models
         public ApplicationContext(DbContextOptions<ApplicationContext> options) 
             : base(options) 
         {
-            Database.EnsureDeleted();
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
-
-            string testProject1Name = "Genie2000";
-            string testProject2Name = "Apex";
-
-            Project testProject1 = new Project() { Name = testProject1Name, Description = "Test description" };
-            Project testProject2 = new Project() { Name = testProject2Name, Description = "Test description" };
-
-            Projects.Add(testProject1);
-            Projects.Add(testProject2);
-
-            SaveChanges();
         }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    string testProject1Name = "Genie2000";
+        //    string testProject2Name = "Apex";
 
+        //    TestSuite testSuite1 = new TestSuite() { Name = "Testing suite" };
+        //    TestSuite testSuite2 = new TestSuite() { Name = "Testing suite" };
+
+        //    TestSuites.AddRange(testSuite1, testSuite2);
+
+        //    Project testProject1 = new Project() { Name = testProject1Name, Description = "Test description" };
+        //    Project testProject2 = new Project() { Name = testProject2Name, Description = "Test description" };
+
+        //    Projects.AddRange(testProject1, testProject2);
+
+        //    SaveChanges();
+        //    base.OnModelCreating(modelBuilder);
+        //}
     }
 }

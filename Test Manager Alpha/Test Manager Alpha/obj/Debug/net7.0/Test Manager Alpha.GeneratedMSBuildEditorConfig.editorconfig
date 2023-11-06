@@ -28,8 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/AddTestCase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxBZGRUZXN0Q2FzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/AddTestSuite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxBZGRUZXN0U3VpdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/ShowInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxTaG93SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Shared/_Layout.cshtml]

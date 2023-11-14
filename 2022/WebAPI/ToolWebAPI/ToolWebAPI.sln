@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolWebAPI", "ToolWebAPI.csproj", "{09A0F22F-7B8A-4E00-A181-63AD73FE5FE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09A0F22F-7B8A-4E00-A181-63AD73FE5FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A0F22F-7B8A-4E00-A181-63AD73FE5FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A0F22F-7B8A-4E00-A181-63AD73FE5FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A0F22F-7B8A-4E00-A181-63AD73FE5FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DC7B873-4592-4CC3-B2B7-094380ECEAAA}
+	EndGlobalSection
+EndGlobal

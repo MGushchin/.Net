@@ -1,0 +1,51 @@
+﻿<Window x:Class="ToolsClientWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolsClientWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="0.8*" />
+        </Grid.ColumnDefinitions>
+
+        <ListBox Grid.Column="0" ItemsSource="{Binding Tools}"
+                 SelectedItem="{Binding SelectedTool}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="18" Text="{Binding Path=Id}" />
+                        <TextBlock Text="{Binding Path=ToolName}" />
+                        <TextBlock Text="{Binding Path=Worker}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Column="1" DataContext="{Binding SelectedTool}">
+            <TextBlock Text="Выбранный элемент"  />
+            <TextBlock Text="Id" />
+            <TextBox x:Name="Id_TextField" Text="{Binding Id, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Инструмент" />
+            <TextBox x:Name="ToolName_TextField" Text="{Binding ToolName, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Работник" />
+            <TextBox x:Name="WorkerName_TextField" Text="{Binding Worker, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Button Command="{Binding GetCommand}">Обновить</Button>
+            <Button Command="{Binding PostCommand}">Добавить</Button>
+            <Button Command="{Binding PutCommand}">Изменить</Button>
+            <Button Command="{Binding DeleteCommand}">Удалить</Button>
+        </StackPanel>
+    </Grid>
+</Window>

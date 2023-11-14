@@ -1,0 +1,26 @@
+﻿<Window x:Class="Camera_Watcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Camera_Watcher"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="PageClosed">
+    <Grid>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25,25,0,0">
+            <TextBox x:Name="IPAdressTextBox" AcceptsReturn="True" FontSize="14" Text ="{Binding IPAdressTextBox}" Width="250" Height="30"/>
+            <Button Content="Задать IP-Адреса" Command="{Binding SetCommand}"  Width="125" Height="30" IsDefault="True"/>
+            <Button Content="Обновить" Command="{Binding RefreshCommand}"  Width="125" Height="30" IsDefault="True"/>
+        </StackPanel>
+
+        <DataGrid x:Name="cameraGrid" AutoGenerateColumns="False" HorizontalGridLinesBrush="DarkGray"
+    RowBackground="LightGray" AlternatingRowBackground="White" ItemsSource="{Binding Cameras}" VerticalAlignment="Top" Height="481" Margin="0,70,0,0" Grid.Row="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="IP Adress" Binding="{Binding Path=IPAdress}" Width="100" />
+                <DataGridHyperlinkColumn Header="Ping status" Binding="{Binding Path=PingStatus}" Width="80" />
+                <DataGridTextColumn Header="Result" Binding="{Binding Path=RequestStatus}" Width="250" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

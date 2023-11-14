@@ -1,0 +1,42 @@
+C:\Users\Maxim\source\repos\ToolsClientWPF\bin\Debug\ToolsClientWPF.exe.config
+C:\Users\Maxim\source\repos\ToolsClientWPF\bin\Debug\ToolsClientWPF.exe
+C:\Users\Maxim\source\repos\ToolsClientWPF\bin\Debug\ToolsClientWPF.pdb
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.AssemblyReference.cache
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\App.g.cs
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF_MarkupCompile.cache
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF_MarkupCompile.lref
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\MainWindow.baml
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.g.resources
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.Properties.Resources.resources
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.GenerateResource.cache
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.exe
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.pdb
+C:\Users\Maxim\source\repos\ToolsClientWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maxim\source\repos\ToolsClientWPF\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Maxim\source\repos\ToolsClientWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maxim\source\repos\ToolsClientWPF\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Maxim\source\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.CopyComplete
+H:\Visual Studio\repos\ToolsClientWPF\bin\Debug\ToolsClientWPF.exe.config
+H:\Visual Studio\repos\ToolsClientWPF\bin\Debug\ToolsClientWPF.exe
+H:\Visual Studio\repos\ToolsClientWPF\bin\Debug\ToolsClientWPF.pdb
+H:\Visual Studio\repos\ToolsClientWPF\bin\Debug\Newtonsoft.Json.dll
+H:\Visual Studio\repos\ToolsClientWPF\bin\Debug\System.Net.Http.Formatting.dll
+H:\Visual Studio\repos\ToolsClientWPF\bin\Debug\Newtonsoft.Json.xml
+H:\Visual Studio\repos\ToolsClientWPF\bin\Debug\System.Net.Http.Formatting.xml
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.AssemblyReference.cache
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.SuggestedBindingRedirects.cache
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\MainWindow.g.cs
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\App.g.cs
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF_MarkupCompile.cache
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF_MarkupCompile.lref
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\MainWindow.baml
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.g.resources
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.Properties.Resources.resources
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.GenerateResource.cache
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.CoreCompileInputs.cache
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.csproj.CopyComplete
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.exe
+H:\Visual Studio\repos\ToolsClientWPF\obj\Debug\ToolsClientWPF.pdb

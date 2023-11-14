@@ -7,8 +7,9 @@ namespace Test_Manager_Alpha.Models
         public DbSet<Project> Projects { get; set; } = null!;
         public DbSet<TestSuite> TestSuites { get; set; } = null!;
         public DbSet<TestCase> TestCases { get; set; } = null!;
+		public DbSet<Step> Steps { get; set; } = null!;
 
-        public ApplicationContext(DbContextOptions<ApplicationContext> options) 
+		public ApplicationContext(DbContextOptions<ApplicationContext> options) 
             : base(options) 
         {
             //Database.EnsureDeleted();

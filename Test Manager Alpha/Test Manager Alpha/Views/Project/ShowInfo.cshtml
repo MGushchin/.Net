@@ -17,19 +17,18 @@
 <p><a asp-action="AddTestSuite" asp-route-projectName="@Model.Name">Add Test Suite</a></p>
 <table class="table">
 	<tr><th>Suite Name</th><th>TC</th><th>Add Test Case</th></tr>
-		@foreach (TestSuite testSuite in @Model.TestSuites)
-		{
+	@foreach (TestSuite testSuite in @Model.TestSuites)
+	{
 		<tr>
-			<td>@testSuite.Name</td>
-			<td>(@testSuite.TestCases.Count)</td>
+			<td>@testSuite.Name (@testSuite.TestCases.Count)</td>
 			<td><a asp-action="AddTestCase" asp-route-testSuiteId="@testSuite.Id">Add Test Case</a></td>
 		</tr>
+		@foreach (TestCase testCase in testSuite.TestCases)
+		{
+			<tr>
+				<td></td>
+				<td><a asp-action="Index" asp-controller="TestCase" asp-route-testCaseId="@testCase.Id">@testCase.Name</a></td>
+			</tr>
 		}
+	}
 </table>
-
-@section Footer {
-	<div>
-		<p> </p>
-		<p>Copyright© Maxim Gushchin, @DateTime.Now.Year. All rights reserved </p>
-	</div>
-}

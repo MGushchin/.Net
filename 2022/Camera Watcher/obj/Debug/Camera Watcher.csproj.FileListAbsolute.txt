@@ -1,0 +1,32 @@
+C:\Users\Maxim\source\repos\Camera Watcher\bin\Debug\Camera Watcher.exe.config
+C:\Users\Maxim\source\repos\Camera Watcher\bin\Debug\Camera Watcher.exe
+C:\Users\Maxim\source\repos\Camera Watcher\bin\Debug\Camera Watcher.pdb
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.AssemblyReference.cache
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\MainWindow.g.cs
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\App.g.cs
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher_MarkupCompile.cache
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher_MarkupCompile.lref
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\MainWindow.baml
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher.g.resources
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera_Watcher.Properties.Resources.resources
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.GenerateResource.cache
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher.exe
+C:\Users\Maxim\source\repos\Camera Watcher\obj\Debug\Camera Watcher.pdb
+H:\Visual Studio\repos\Camera Watcher\bin\Debug\Camera Watcher.exe.config
+H:\Visual Studio\repos\Camera Watcher\bin\Debug\Camera Watcher.exe
+H:\Visual Studio\repos\Camera Watcher\bin\Debug\Camera Watcher.pdb
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.AssemblyReference.cache
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.SuggestedBindingRedirects.cache
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\MainWindow.g.cs
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\App.g.cs
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher_MarkupCompile.cache
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher_MarkupCompile.lref
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\MainWindow.baml
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher.g.resources
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera_Watcher.Properties.Resources.resources
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.GenerateResource.cache
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher.csproj.CoreCompileInputs.cache
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher.exe
+H:\Visual Studio\repos\Camera Watcher\obj\Debug\Camera Watcher.pdb
